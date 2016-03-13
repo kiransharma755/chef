@@ -1,9 +1,0 @@
-#template file :-
-<VirtualHost *:81>
-ServerName 10.0.2.15
-DocumentRoot /var/www/testvhost
-ServerAlias 80
-ErrorLog #node['error_log_path']}/error.log
-CustomLog #node['custom_log_path']}/requests.log combined
-</VirtualHost>
-
