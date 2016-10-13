@@ -1,0 +1,35 @@
+#create user
+sudo chef-server-ctl user-create --filename /home/admin/admin.pem admin adminm admin  admin@bipratech.com password
+
+#Create your first organization:
+chef-server-ctl org-create bipratech  'bipratech llc.' --association_user admin --filename /home/admin/bipratech-validator.pem
+
+scproot@...:/etc/sysconfig/network-scripts/ifcfg-eth.
+hostnamectlset-hostnameserver.bipratech.com
+systemctlrestartnetwork
+wgethttps://packages.chef.io/stable/el//chef-server-core-..-.el.x_.rpm
+
+./chef-config
+systemctlstophttpd
+chef-server-ctlstart
+./chef-config
+chef-server-ctlstop
+chef-server-ctlstatus
+systemctlstatushttpd
+systemctlstatusnginx
+chef-server-ctlreconfigure
+systemctlrestartnetwork
+ifconfigeth...
+sudo-uopscode-pgsql/opt/chef-server/embedded/bin/psqlopscode_chef
+sudo-uopscode-pgsql/opt/opscode/embedded/bin/psqlopscode_chef
+chef-server-ctlrestart
+cdchef-manage/
+
+chef-server-ctluser-deleteadmin
+chef-server-ctlpasswordadmin
+chef-server-ctluser-list
+-----------------
+
+installation of management console
+
+chef-server-ctl install chef-manage
