@@ -1,0 +1,3 @@
+  sudo chef-server-ctl user-list test
+  sudo chef-server-ctl  org-list  4thcoffee 
+  sudo chef-server-ctl user-list chefadmin 

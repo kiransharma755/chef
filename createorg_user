@@ -1,0 +1,3 @@
+#sudo chef-server-ctl user-create test test test test@test.com testtest --filename ~/.ssh/file.key
+sudo chef-server-ctl user-create chefadmin Chef Admin admin@4thcoffee.com insecurepassword --filename ~/.chef/chefadmin.pem
+sudo chef-server-ctl org-create 4thcoffee "Fourth Coffee, Inc." --association_user chefadmin --filename ~/.chef/bipratech-validator.pem

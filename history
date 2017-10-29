@@ -1,0 +1,37 @@
+   61  sudo rpm -Uvh chef-server-core-12.17.5-1.el7.x86_64.rpm 
+   62  sudo chef-server-ctl  reconfigure
+   66  chef-server-ctl 
+  103  sudo chef-server-ctl list users
+  105  sudo chef-server-ctl list users
+  106  sudo chef-server-ctl  user list
+  108  chef-server-ctl user-delete test
+  109  sudo chef-server-ctl user-delete test
+  118  chef-server-ctl user-list
+  119  sudo chef-server-ctl user-list
+  121  sudo chef-server-ctl user-create test test test test@test.com testtest --filename ~/.ssh/file.key
+  122  sudo chef-server-ctl user-list
+  141  sudo chef-server-ctl user-list
+  142  sudo chef-server-ctl orgs-list
+  143  sudo chef-server-ctl org-list
+  145  sudo chef-server-ctl
+  146  sudo chef-server-ctl org-list
+  148  chef-server-ctl org-create 4thcoffee "Fourth Coffee, Inc." --association_user chefadmin --filename ~/.chef/bipratech-val
+  149  chef-server-ctl org-creatse 4thcoffee "Fourth Coffee, Inc." --association_user chefadmin --filename ~/.chef/bipratech-val
+  152  chef-server-ctl org-create 4tshcoffee "Fourth Coffee, Inc." --association_user chefadmin --filename ~/.chef/bipratech-val
+  161  chef-server-ctl 
+  190  sudo chef-server-ctl  org-delete  4thcoffee 
+  193  chef-server-ctl user-list 
+  194  sudo chef-server-ctl user-list 
+  195  sudo chef-server-ctl org-list 
+  220  sudo chef-server-ctl user-create chefadmin Chef Admin admin@4thcoffee.com insecurepassword --filename ~/.chef/chefadmin.pem
+  221  sudo chef-server-ctl org-create 4thcoffee "Fourth Coffee, Inc." --association_user chefadmin --filename ~/.chef/bipratech-validator.pem
+  222  sudo chef-server-ctl user-delete chefadmin 
+  223  sudo chef-server-ctl org-delete 4thcoffee 
+  224  sudo chef-server-ctl user-delete chefadmin 
+  227  sudo chef-server-ctl user-create chefadmin Chef Admin admin@4thcoffee.com insecurepassword --filename ~/.chef/chefadmin.
+  228  sudo chef-server-ctl user-list
+  231  sudo chef-server-ctl user-delete chefadmin 
+  253  history |grep chef-server
+  255  history |grep chef-server >history 
+  256  sudo history |grep chef-server >history 
+  280  history |grep chef-server >history 
