@@ -1,2 +1,6 @@
 knife cookbook create $1
 
+bootstrap 
+knife bootstrap 54.202.217.143 -N node2  --ssh-user user --sudo --run-list 'recipe[tomcat]'
+
+
